@@ -21,16 +21,6 @@ Instead, you find silence. The house that once represented safety has become a g
 Your wife and daughter are dead. Something else is inside: a voice, a presence, a god that has been waiting.
 What begins as a search for the source of this evil becomes a journey through guilt, memory, and the consequences of the person you became.
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo2-negative.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo2.png">
-  <img alt="" src="docs/branding/Logo2-negative.png" width="220">
-</picture>
-
-</div>
-
 ---
 
 # The Story
@@ -62,6 +52,10 @@ But part of you never did.
 ---
 
 # The One Who Left
+
+<div align="center">
+  <img alt="The One Who Left" src="docs/branding/Text.png" width="600">
+</div>
 
 Nobody remembers your name.
 Nobody calls you by it.
