@@ -175,6 +175,49 @@ It was always present in the things people chose not to see.
 
 <h1 align="center">
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/the-butterfly-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/the-butterfly-light.png">
+  <img alt="The Butterfly" src="docs/branding/headings/the-butterfly-dark.png" height="60">
+</picture>
+</h1>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/butterfly-negative.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/butterfly.png">
+  <img alt="The butterfly" src="docs/branding/butterfly-negative.png" width="360">
+</picture>
+
+</div>
+
+The butterfly is the mark of the game.
+It looks like an old natural-history engraving, almost beautiful.
+Then you notice the eyes in the wings.
+Then you notice there is someone inside them.
+
+## Eyes
+
+The wings carry eyes that are easy to take for a pattern.
+Something that sees everything, hiding in something beautiful.
+You only find it if you look.
+
+## Transformation
+
+A butterfly becomes something completely different from what it was.
+So did you.
+The butterfly is not proof that change is beautiful.
+It is proof that change can leave you unrecognizable.
+
+## Left Behind
+
+You came back transformed.
+The people you left behind never got to change with you.
+
+---
+
+<h1 align="center">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/themes-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/themes-light.png">
   <img alt="Themes" src="docs/branding/headings/themes-dark.png" height="60">
