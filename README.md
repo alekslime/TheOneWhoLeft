@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo_Banner.jpg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo_Banner-negative.jpg">
-  <img alt="The One Who Left" src="docs/branding/Logo Banner.jpg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo%20Banner.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo%20Banner-negative.jpg">
+  <img alt="The One Who Left" src="docs/branding/Logo%20Banner.jpg" width="100%">
 </picture>
 
 *A psychological horror experience about guilt, blindness, and the things we refuse to see.*
