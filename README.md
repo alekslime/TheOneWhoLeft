@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo_Banner.jpg">
   <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo_Banner-negative.jpg">
-  <img alt="The One Who Left" src="docs/branding/Logo_Banner.jpg" width="100%">
+  <img alt="The One Who Left" src="docs/branding/Logo Banner.jpg" width="100%">
 </picture>
 
 *A psychological horror experience about guilt, blindness, and the things we refuse to see.*
