@@ -192,27 +192,15 @@ It was always present in the things people chose not to see.
 </div>
 
 The butterfly is the mark of the game.
-It looks like an old natural-history engraving, almost beautiful.
-Then you notice the eyes in the wings.
-Then you notice there is someone inside them.
 
-## Eyes
+A butterfly has two wings.
+This one has only one.
 
-The wings carry eyes that are easy to take for a pattern.
-Something that sees everything, hiding in something beautiful.
-You only find it if you look.
+It left.
+It went to war.
+It came back half.
 
-## Transformation
-
-A butterfly becomes something completely different from what it was.
-So did you.
-The butterfly is not proof that change is beautiful.
-It is proof that change can leave you unrecognizable.
-
-## Left Behind
-
-You came back transformed.
-The people you left behind never got to change with you.
+The eyes on its wing can no longer see.
 
 ---
 
