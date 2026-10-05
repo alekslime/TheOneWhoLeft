@@ -1,200 +1,250 @@
-# The One Who Left
+<div align="center">
 
-*A psychological horror experience about guilt, blindness, and the things we refuse to see.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo_Banner.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo_Banner-negative.jpg">
+  <img alt="The One Who Left" src="docs/branding/Logo_Banner.jpg" width="100%">
+</picture>
 
-Built with Godot 4.x.
+<br>
+
+### *A psychological horror experience about guilt, blindness, and the things we refuse to see.*
+
+<br>
+
+![Godot](https://img.shields.io/badge/Godot-4.x-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+![GDScript](https://img.shields.io/badge/GDScript-90%25-355570?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-in%20development-8B0000?style=for-the-badge)
+![Genre](https://img.shields.io/badge/genre-psychological%20horror-111111?style=for-the-badge)
+
+<br>
+
+[Overview](#overview) &nbsp;·&nbsp; [The Journey](#the-journey) &nbsp;·&nbsp; [The God](#the-god) &nbsp;·&nbsp; [Themes](#themes) &nbsp;·&nbsp; [Development](#development)
+
+</div>
+
+<br>
 
 ---
 
 ## Overview
 
 You return home from war expecting to find the life you left behind.
-Instead, you find silence. The house that once represented safety has become a grave.
-Your wife and daughter are dead. Something else is inside: a voice, a presence, a god that has been waiting.
-What begins as a search for the source of this evil becomes a journey through guilt, memory, and the consequences of the person you became.
+
+Instead, you find silence. The house that once meant safety has become a grave. Your wife and daughter are dead, and something else is inside: a voice, a presence, a god that has been waiting.
+
+What begins as a search for the source of this evil becomes a journey through **guilt**, **memory**, and the consequences of the person you became.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo2-negative.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo2.png">
+  <img alt="" src="docs/branding/Logo2-negative.png" width="220">
+</picture>
+
+</div>
 
 ---
 
-# The Story
+## The Story
 
-The world was once green. The forests were alive, the fields were peaceful, and everything felt untouched.
+The world was once green. The forests were alive, the fields were peaceful, everything felt untouched.
 
 Then you returned.
-The moment you step back into your home, everything changes. The warmth disappears, the colors fade, and the place you once knew becomes unrecognizable.
-Inside, you find the bodies of your wife and daughter.
+
+The moment you step back into your home, the warmth disappears, the colors fade, and the place you once knew becomes unrecognizable. Inside, you find the bodies of your wife and daughter.
+
 You were away fighting a war. You told yourself it was necessary. You told yourself you would return.
+
 But while you were gone, something else arrived.
 
-A cult.
-A voice.
+> **A cult. A voice.**
+> Something they worshipped. Something that promises salvation through suffering. Something that sees everything.
 
-Something they worshipped.
-Something that promises salvation through suffering.
-Something that sees everything.
+The truth is more complicated than simple abandonment. You didn't leave because you stopped loving them. You left because you were **afraid**: afraid of seeing what your absence had done, afraid of admitting the person who came back was no longer the person who left.
 
-However, the truth is more complicated than simple abandonment.
-You did not leave because you stopped loving them.
-You left because you were afraid.
-Afraid of seeing what your absence had done. Afraid of admitting that the person who returned from war was no longer the same person who left.
-The war did not change you all at once. It happened slowly. You became distant. You stopped talking. You stopped noticing the pain of the people waiting for you.
+The war didn't change you all at once. You became distant. You stopped talking. You stopped noticing the pain of the people waiting for you.
 
-Your body came home.
-But part of you never did.
+**Your body came home. But part of you never did.**
 
 ---
 
-# The One Who Left
+## The One Who Left
 
-Nobody remembers your name.
-Nobody calls you by it.
-The cult does not know it. The dead do not speak it. Even the entity waiting at the end of your journey refuses to acknowledge it.
-To them, you are not a person.
-You are a memory. A mistake. A wound.
+Nobody remembers your name. The cult doesn't know it. The dead don't speak it. Even the entity waiting at the end of your journey refuses to acknowledge it.
 
-> The One Who Left.
+To them, you are not a person. You are a memory. A mistake. A wound.
 
-The name is not only about leaving your home. It represents the moment you stopped seeing the people who needed you.
+<div align="center">
 
----
+### *The One Who Left.*
 
-# The Journey
+</div>
 
-## The House
-
-The place where everything ended.
-A home corrupted by absence. The rooms remain untouched, frozen in time: a child's toy, a family photograph, a dinner table prepared for people who will never return.
-The house does not simply haunt you.
-It remembers you.
+The name isn't only about leaving your home. It marks the moment you stopped seeing the people who needed you.
 
 ---
 
-## The Forest
+## The Journey
 
-The world outside appears peaceful, almost too peaceful.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The same forest that once represented life becomes the path toward something ancient.
+### The House
+The place where everything ended. A home corrupted by absence. The rooms remain frozen in time: a child's toy, a family photograph, a dinner table set for people who will never return.
 
-The deeper you travel, the less the forest feels like a place and the more it feels like something watching.
+*The house doesn't simply haunt you. It remembers you.*
 
----
+</td>
+<td width="50%" valign="top">
 
-## The Mansion
+### The Forest
+The world outside looks peaceful. Almost too peaceful.
 
-A beautiful place hiding something rotten.
-Candles burn endlessly. Rooms are prepared for guests who never arrive. Portraits show families with missing faces.
-Every hallway feels familiar. Every room feels like a memory you buried.
+The same forest that once meant life becomes the path toward something ancient. The deeper you go, the less it feels like a place and the more it feels like something **watching**.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### The Mansion
+A beautiful place hiding something rotten. Candles burn endlessly. Rooms are prepared for guests who never arrive. Portraits show families with missing faces.
+
 At the center waits the person you lost.
-Your wife.
 
-Not alive, but not completely gone.
-She does not simply blame you for leaving.
-She wants you to understand what it felt like to love someone who was no longer truly there.
+</td>
+<td width="50%" valign="top">
 
----
+### The Stairway
+A place that should not exist. A spiral staircase leading somewhere beyond reality, its walls and sky covered in eyes that follow your every move.
 
-## The Stairway
+*You thought blindness meant not seeing. You were wrong.*
 
-Near the end of your journey, you discover a place that should not exist.
-A hallway.
-A spiral staircase.
-A path leading somewhere beyond reality.
-The walls and sky are covered in eyes that follow your movements.
-They have always been watching.
-You thought blindness meant not seeing.
-You were wrong.
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Spoilers: the ending</b></summary>
+
+<br>
+
+#### The Mansion
+Your wife is there, not alive, but not completely gone. She doesn't simply blame you for leaving. She wants you to understand what it felt like to love someone who was no longer truly there.
+
+#### The Stairway
 Sometimes the worst thing is being forced to see everything.
 
----
+#### The Final Door
+At the top of the staircase, after hearing the voice that has followed you since the beginning, a door appears. There is no room behind it. No explanation. Only darkness.
 
-# The God
+The entity mocks your journey, your pain, and your belief that destroying it will fix everything. Because the truth is worse:
 
-Nobody knows what it truly is.
-The cult calls it a god.
-Others call it a monster.
-Some believe it is the punishment humanity created for itself.
-It does not destroy worlds or conquer civilizations.
+> **The god was never hiding. It was always present in the things people chose not to see.**
 
-It watches.
-It waits.
-It feeds on what people become when nobody is watching.
-Cruelty.
-Fear.
-Indifference.
-Abandonment.
+</details>
 
 ---
 
-# The Final Door
+## The God
 
-At the top of the staircase, after hearing the voice that has followed you since the beginning, a door appears.
-There is no room behind it.
-No explanation.
-Only darkness.
-The entity mocks your journey, your pain, and your belief that destroying it will fix everything.
-Because the truth is worse:
-The god was never hiding.
-It was always present in the things people chose not to see.
+Nobody knows what it truly is. The cult calls it a god. Others call it a monster. Some believe it's the punishment humanity created for itself.
 
----
+It doesn't destroy worlds or conquer civilizations.
 
-# Themes
+**It watches. It waits.**
 
-## Blindness
+It feeds on what people become when nobody is watching:
 
-The greatest blindness is not the inability to see.
-It is seeing suffering and choosing to look away.
+<div align="center">
 
-## Guilt
+`Cruelty` &nbsp; `Fear` &nbsp; `Indifference` &nbsp; `Abandonment`
 
-Can someone forgive themselves for something they cannot forgive?
-
-## Identity
-
-When everything is taken away, what remains?
-A name?
-A memory?
-A mistake?
-
-## Humanity
-
-What happens when people stop seeing each other as human?
+</div>
 
 ---
 
-# Inspirations
+## Themes
 
-Inspired by psychological horror, existential horror, and themes explored in:
+| Theme | The question |
+|---|---|
+| **Blindness** | The greatest blindness isn't the inability to see. It's seeing suffering and choosing to look away. |
+| **Guilt** | Can someone forgive themselves for something they cannot forgive? |
+| **Identity** | When everything is taken away, what remains? A name? A memory? A mistake? |
+| **Humanity** | What happens when people stop seeing each other as human? |
 
-- *Blindness* — José Saramago
+---
+
+## Inspirations
+
+- *Blindness*, José Saramago
 - Cosmic horror
 - War trauma narratives
 - Gothic horror
 - Religious symbolism
 
-This is not a story about defeating evil.
-It is a story about confronting what happens when humanity loses sight of itself.
+*This is not a story about defeating evil. It's a story about confronting what happens when humanity loses sight of itself.*
 
 ---
 
-# Development
+## Screenshots
 
-Engine:
-- Godot 4.x
+<!--
+Drop screenshots into docs/screenshots/ and uncomment:
 
-Language:
-- GDScript
+<p align="center">
+  <img src="docs/screenshots/house.png" width="49%">
+  <img src="docs/screenshots/forest.png" width="49%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/mansion.png" width="49%">
+  <img src="docs/screenshots/stairway.png" width="49%">
+</p>
+-->
 
-Status:
-- In development
+*Coming soon.*
 
 ---
 
-# Developer Note
+## Development
 
-This project explores horror beyond monsters.
-The most terrifying things are not always the creatures waiting in the dark.
-Sometimes they are the memories we carry with us.
+| | |
+|---|---|
+| **Engine** | Godot 4.x |
+| **Language** | GDScript (+ a few shaders) |
+| **Status** | In development |
 
-> "You were not blind because you could not see.
->
-> You were blind because you chose not to look."
+### Run it
+
+1. Install [Godot 4.x](https://godotengine.org/download)
+2. Clone the repo
+   ```bash
+   git clone https://github.com/alekslime/TheOneWhoLeft.git
+   ```
+3. Open `project.godot` in Godot and hit **F5**
+
+---
+
+## Developer Note
+
+This project explores horror beyond monsters. The most terrifying things aren't always the creatures waiting in the dark. Sometimes they're the memories we carry with us.
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo1-negative.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo1.png">
+  <img alt="The One Who Left" src="docs/branding/Logo1-negative.png" width="260">
+</picture>
+
+<br>
+
+> *"You were not blind because you could not see.*
+> *You were blind because you chose not to look."*
+
+</div>
