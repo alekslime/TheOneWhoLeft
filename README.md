@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo_Banner.jpg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo_Banner-negative.jpg">
-  <img alt="The One Who Left" src="docs/branding/Logo_Banner.jpg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/Logo%20Banner.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/Logo%20Banner-negative.jpg">
+  <img alt="The One Who Left" src="docs/branding/Logo%20Banner.jpg" width="100%">
 </picture>
 
 *A psychological horror experience about guilt, blindness, and the things we refuse to see.*
@@ -23,7 +23,13 @@ What begins as a search for the source of this evil becomes a journey through gu
 
 ---
 
-# The Story
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/the-story-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/the-story-light.png">
+  <img alt="The Story" src="docs/branding/headings/the-story-dark.png" height="60">
+</picture>
+</h1>
 
 The world was once green. The forests were alive, the fields were peaceful, and everything felt untouched.
 
@@ -69,7 +75,13 @@ The name is not only about leaving your home. It represents the moment you stopp
 
 ---
 
-# The Journey
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/the-journey-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/the-journey-light.png">
+  <img alt="The Journey" src="docs/branding/headings/the-journey-dark.png" height="60">
+</picture>
+</h1>
 
 ## The House
 
@@ -118,7 +130,13 @@ Sometimes the worst thing is being forced to see everything.
 
 ---
 
-# The God
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/the-god-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/the-god-light.png">
+  <img alt="The God" src="docs/branding/headings/the-god-dark.png" height="60">
+</picture>
+</h1>
 
 Nobody knows what it truly is.
 The cult calls it a god.
@@ -136,7 +154,13 @@ Abandonment.
 
 ---
 
-# The Final Door
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/the-final-door-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/the-final-door-light.png">
+  <img alt="The Final Door" src="docs/branding/headings/the-final-door-dark.png" height="60">
+</picture>
+</h1>
 
 At the top of the staircase, after hearing the voice that has followed you since the beginning, a door appears.
 There is no room behind it.
@@ -149,7 +173,13 @@ It was always present in the things people chose not to see.
 
 ---
 
-# Themes
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/themes-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/themes-light.png">
+  <img alt="Themes" src="docs/branding/headings/themes-dark.png" height="60">
+</picture>
+</h1>
 
 ## Blindness
 
@@ -173,7 +203,13 @@ What happens when people stop seeing each other as human?
 
 ---
 
-# Inspirations
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/inspirations-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/inspirations-light.png">
+  <img alt="Inspirations" src="docs/branding/headings/inspirations-dark.png" height="60">
+</picture>
+</h1>
 
 Inspired by psychological horror, existential horror, and themes explored in:
 
@@ -188,7 +224,13 @@ It is a story about confronting what happens when humanity loses sight of itself
 
 ---
 
-# Development
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/development-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/development-light.png">
+  <img alt="Development" src="docs/branding/headings/development-dark.png" height="60">
+</picture>
+</h1>
 
 Engine:
 - Godot 4.x
@@ -201,7 +243,13 @@ Status:
 
 ---
 
-# Developer Note
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/headings/developer-note-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/headings/developer-note-light.png">
+  <img alt="Developer Note" src="docs/branding/headings/developer-note-dark.png" height="60">
+</picture>
+</h1>
 
 This project explores horror beyond monsters.
 The most terrifying things are not always the creatures waiting in the dark.
