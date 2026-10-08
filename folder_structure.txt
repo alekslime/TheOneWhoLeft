@@ -1,0 +1,628 @@
+.
+├── assets
+│   ├── audio
+│   │   ├── door
+│   │   │   ├── DoorShut.mp3
+│   │   │   ├── DoorShut.mp3.import
+│   │   │   ├── OpenSound.mp3
+│   │   │   └── OpenSound.mp3.import
+│   │   ├── intro
+│   │   │   ├── CultHum.mp3
+│   │   │   ├── CultHum.mp3.import
+│   │   │   ├── MusicClassical.mp3
+│   │   │   ├── MusicClassical.mp3.import
+│   │   │   ├── MusicEerie.mp3
+│   │   │   ├── MusicEerie.mp3.import
+│   │   │   ├── MusicWarm.mp3
+│   │   │   ├── MusicWarm.mp3.import
+│   │   │   ├── VoiceDaughter.mp3
+│   │   │   ├── VoiceDaughter.mp3.import
+│   │   │   ├── VoiceMysterious.mp3
+│   │   │   ├── VoiceMysterious.mp3.import
+│   │   │   ├── VoiceWife.mp3
+│   │   │   └── VoiceWife.mp3.import
+│   │   ├── mara
+│   │   │   ├── they came in the night.ogg
+│   │   │   ├── they came in the night.ogg.import
+│   │   │   ├── they didnt scream.ogg
+│   │   │   └── they didnt scream.ogg.import
+│   │   └── weapons
+│   │       ├── explosion.mp3
+│   │       ├── explosion.mp3.import
+│   │       ├── grenade_launcher_pop.mp3
+│   │       ├── grenade_launcher_pop.mp3.import
+│   │       ├── gun_empty_click.mp3
+│   │       ├── gun_empty_click.mp3.import
+│   │       ├── reload.mp3
+│   │       ├── reload.mp3.import
+│   │       ├── revolver_cock.mp3
+│   │       ├── revolver_cock.mp3.import
+│   │       ├── revolver_shot.mp3
+│   │       ├── revolver_shot.mp3.import
+│   │       ├── shotgun_pump.mp3
+│   │       ├── shotgun_pump.mp3.import
+│   │       ├── shotgun_shot.mp3
+│   │       ├── shotgun_shot.mp3.import
+│   │       ├── smg_fire.mp3
+│   │       └── smg_fire.mp3.import
+│   ├── blood1
+│   │   ├── blood_stain.glb
+│   │   └── blood_stain.glb.import
+│   ├── blood2
+│   │   ├── blood_stain_2.glb
+│   │   └── blood_stain_2.glb.import
+│   ├── candle
+│   │   ├── psx_candle_0.jpg
+│   │   ├── psx_candle_0.jpg.import
+│   │   ├── psx_candle.glb
+│   │   └── psx_candle.glb.import
+│   ├── car
+│   │   ├── fiat_uno_1998_0.png
+│   │   ├── fiat_uno_1998_0.png.import
+│   │   ├── fiat_uno_1998.glb
+│   │   └── fiat_uno_1998.glb.import
+│   ├── chair
+│   │   ├── psx_wooden_chair_0.png
+│   │   ├── psx_wooden_chair_0.png.import
+│   │   ├── psx_wooden_chair.glb
+│   │   └── psx_wooden_chair.glb.import
+│   ├── chapel
+│   │   ├── low-poly_church_0.jpg
+│   │   ├── low-poly_church_0.jpg.import
+│   │   ├── low-poly_church_1.jpg
+│   │   ├── low-poly_church_1.jpg.import
+│   │   ├── low-poly_church_2.jpg
+│   │   ├── low-poly_church_2.jpg.import
+│   │   ├── low-poly_church_3.jpg
+│   │   ├── low-poly_church_3.jpg.import
+│   │   ├── low-poly_church_4.jpg
+│   │   ├── low-poly_church_4.jpg.import
+│   │   ├── low-poly_church_5.jpg
+│   │   ├── low-poly_church_5.jpg.import
+│   │   ├── low-poly_church.glb
+│   │   └── low-poly_church.glb.import
+│   ├── couch
+│   │   ├── psx_sofa_0.jpg
+│   │   ├── psx_sofa_0.jpg.import
+│   │   ├── psx_sofa.glb
+│   │   └── psx_sofa.glb.import
+│   ├── door
+│   │   ├── door.glb
+│   │   ├── door.glb.import
+│   │   ├── door_Image_6.jpg
+│   │   ├── door_Image_6.jpg.import
+│   │   ├── door_Image_7.png
+│   │   ├── door_Image_7.png.import
+│   │   ├── door_Image_8.jpg
+│   │   ├── door_Image_8.jpg.import
+│   │   ├── door_Image_9.png
+│   │   └── door_Image_9.png.import
+│   ├── drawer
+│   │   ├── psx_wooden_drawers_0.png
+│   │   ├── psx_wooden_drawers_0.png.import
+│   │   ├── psx_wooden_drawers.glb
+│   │   └── psx_wooden_drawers.glb.import
+│   ├── enemy_meshes
+│   │   ├── Ch36_nonPBR_0.png
+│   │   ├── Ch36_nonPBR_0.png.import
+│   │   ├── Ch36_nonPBR_1.png
+│   │   ├── Ch36_nonPBR_1.png.import
+│   │   ├── Ch36_nonPBR_2.png
+│   │   ├── Ch36_nonPBR_2.png.import
+│   │   ├── Ch36_nonPBR_3.png
+│   │   ├── Ch36_nonPBR_3.png.import
+│   │   ├── Ch36_nonPBR.fbx
+│   │   └── Ch36_nonPBR.fbx.import
+│   ├── eye
+│   │   ├── anatomical_eye_ball_0.jpg
+│   │   ├── anatomical_eye_ball_0.jpg.import
+│   │   ├── anatomical_eye_ball_1.png
+│   │   ├── anatomical_eye_ball_1.png.import
+│   │   ├── anatomical_eye_ball.glb
+│   │   └── anatomical_eye_ball.glb.import
+│   ├── font
+│   │   ├── DeadSecretary.ttf
+│   │   ├── DeadSecretary.ttf.import
+│   │   ├── Ithornët.otf
+│   │   ├── Ithornët.otf.import
+│   │   ├── Ithornët.ttf
+│   │   └── Ithornët.ttf.import
+│   ├── forest
+│   │   ├── Forest.glb
+│   │   ├── Forest.glb.import
+│   │   ├── Forest_Image_0.png
+│   │   ├── Forest_Image_0.png.import
+│   │   ├── Forest_Image_1.jpg
+│   │   ├── Forest_Image_1.jpg.import
+│   │   ├── Forest_Image_2.jpg
+│   │   ├── Forest_Image_2.jpg.import
+│   │   └── Trunks.tscn
+│   ├── grass
+│   │   ├── grass.glb
+│   │   └── grass.glb.import
+│   ├── gun
+│   │   ├── apex_legends_peacekeeper_shotgun_0.png
+│   │   ├── apex_legends_peacekeeper_shotgun_0.png.import
+│   │   ├── apex_legends_peacekeeper_shotgun_1.png
+│   │   ├── apex_legends_peacekeeper_shotgun_1.png.import
+│   │   ├── apex_legends_peacekeeper_shotgun_2.png
+│   │   ├── apex_legends_peacekeeper_shotgun_2.png.import
+│   │   ├── apex_legends_peacekeeper_shotgun.glb
+│   │   ├── apex_legends_peacekeeper_shotgun.glb.import
+│   │   ├── heavy_revolver_concept_0.png
+│   │   ├── heavy_revolver_concept_0.png.import
+│   │   ├── heavy_revolver_concept_10.jpg
+│   │   ├── heavy_revolver_concept_10.jpg.import
+│   │   ├── heavy_revolver_concept_11.png
+│   │   ├── heavy_revolver_concept_11.png.import
+│   │   ├── heavy_revolver_concept_1.png
+│   │   ├── heavy_revolver_concept_1.png.import
+│   │   ├── heavy_revolver_concept_2.jpg
+│   │   ├── heavy_revolver_concept_2.jpg.import
+│   │   ├── heavy_revolver_concept_3.png
+│   │   ├── heavy_revolver_concept_3.png.import
+│   │   ├── heavy_revolver_concept_4.png
+│   │   ├── heavy_revolver_concept_4.png.import
+│   │   ├── heavy_revolver_concept_5.png
+│   │   ├── heavy_revolver_concept_5.png.import
+│   │   ├── heavy_revolver_concept_6.jpg
+│   │   ├── heavy_revolver_concept_6.jpg.import
+│   │   ├── heavy_revolver_concept_7.png
+│   │   ├── heavy_revolver_concept_7.png.import
+│   │   ├── heavy_revolver_concept_8.png
+│   │   ├── heavy_revolver_concept_8.png.import
+│   │   ├── heavy_revolver_concept_9.png
+│   │   ├── heavy_revolver_concept_9.png.import
+│   │   ├── heavy_revolver_concept.glb
+│   │   ├── heavy_revolver_concept.glb.import
+│   │   ├── mac10_0.jpg
+│   │   ├── mac10_0.jpg.import
+│   │   ├── mac10_1.png
+│   │   ├── mac10_1.png.import
+│   │   ├── mac10_2.jpg
+│   │   ├── mac10_2.jpg.import
+│   │   ├── mac10.glb
+│   │   ├── mac10.glb.import
+│   │   ├── rgm-40_gl_0.png
+│   │   ├── rgm-40_gl_0.png.import
+│   │   ├── rgm-40_gl_1.png
+│   │   ├── rgm-40_gl_1.png.import
+│   │   ├── rgm-40_gl_2.png
+│   │   ├── rgm-40_gl_2.png.import
+│   │   ├── rgm-40_gl.glb
+│   │   └── rgm-40_gl.glb.import
+│   ├── house
+│   │   ├── GoodHouse_Cottage_Clean_Base_Color.png
+│   │   ├── GoodHouse_Cottage_Clean_Base_Color.png.import
+│   │   ├── GoodHouse_Cottage_Clean_Metallic-Cottage_Clean_Roughness.png
+│   │   ├── GoodHouse_Cottage_Clean_Metallic-Cottage_Clean_Roughness.png.import
+│   │   ├── GoodHouse_Cottage_Clean_Normal.png
+│   │   ├── GoodHouse_Cottage_Clean_Normal.png.import
+│   │   ├── GoodHouse.glb
+│   │   └── GoodHouse.glb.import
+│   ├── knife
+│   │   ├── knife.glb
+│   │   └── knife.glb.import
+│   ├── models
+│   │   ├── the_flame.obj
+│   │   └── the_flame.obj.import
+│   ├── sigil
+│   │   ├── sigil.png
+│   │   └── sigil.png.import
+│   ├── sky
+│   │   ├── cursed_sky.gdshader
+│   │   ├── cursed_sky.gdshader.uid
+│   │   ├── seamless_8k_pbr_3d_texture_of_desert_sky_with_clear_blue_horizon_and_minimal_cloudscape_8k_tile.png
+│   │   ├── seamless_8k_pbr_3d_texture_of_desert_sky_with_clear_blue_horizon_and_minimal_cloudscape_8k_tile.png.import
+│   │   ├── sunny_sky.gdshader
+│   │   └── sunny_sky.gdshader.uid
+│   ├── sofa
+│   │   ├── psx_armchair_0.png
+│   │   ├── psx_armchair_0.png.import
+│   │   ├── psx_armchair.glb
+│   │   └── psx_armchair.glb.import
+│   ├── sounds
+│   │   ├── Council of Nine - Exit Statements.mp3
+│   │   ├── Council of Nine - Exit Statements.mp3.import
+│   │   ├── Darkest Dungeon OST - Torchless - Ruins Combat.mp3
+│   │   ├── Darkest Dungeon OST - Torchless - Ruins Combat.mp3.import
+│   │   ├── dash.mp3
+│   │   ├── dash.mp3.import
+│   │   ├── enemy_death.mp3
+│   │   ├── enemy_death.mp3.import
+│   │   ├── enemy_hit.mp3
+│   │   ├── enemy_hit.mp3.import
+│   │   ├── flame_loop.mp3
+│   │   ├── flame_loop.mp3.import
+│   │   ├── footstep.mp3
+│   │   ├── footstep.mp3.import
+│   │   ├── heavy breathing.mp3
+│   │   ├── heavy breathing.mp3.import
+│   │   ├── Hellblade_ Senua's Sacrifice Ambience - Main Menu.mp3
+│   │   ├── Hellblade_ Senua's Sacrifice Ambience - Main Menu.mp3.import
+│   │   ├── Osseous - Horror Music. Intense Synth & Percussion. Evil Choir Strings.mp3
+│   │   ├── Osseous - Horror Music. Intense Synth & Percussion. Evil Choir Strings.mp3.import
+│   │   ├── pick up.mp3
+│   │   ├── pick up.mp3.import
+│   │   ├── scream rage.mp3
+│   │   ├── scream rage.mp3.import
+│   │   ├── shotgun_fire.mp3
+│   │   ├── shotgun_fire.mp3.import
+│   │   ├── slide.mp3
+│   │   ├── slide.mp3.import
+│   │   └── sounds+
+│   │       ├── AdsSound.mp3
+│   │       ├── AdsSound.mp3.import
+│   │       ├── BulletEmptySound.mp3
+│   │       ├── BulletEmptySound.mp3.import
+│   │       ├── FlameEmptySound.mp3
+│   │       ├── FlameEmptySound.mp3.import
+│   │       ├── FlamethrowerRelease.mp3
+│   │       ├── FlamethrowerRelease.mp3.import
+│   │       ├── HitSound.mp3
+│   │       ├── HitSound.mp3.import
+│   │       ├── LevelEnd.mp3
+│   │       ├── LevelEnd.mp3.import
+│   │       ├── PickupSound.mp3
+│   │       ├── PickupSound.mp3.import
+│   │       ├── RevolverHitSound.mp3
+│   │       ├── RevolverHitSound.mp3.import
+│   │       ├── RevolverLoad.mp3
+│   │       ├── RevolverLoad.mp3.import
+│   │       ├── RevolverReloadSound.mp3
+│   │       ├── RevolverReloadSound.mp3.import
+│   │       ├── RevolverShootSound.mp3
+│   │       ├── RevolverShootSound.mp3.import
+│   │       ├── ShellEjectSound.mp3
+│   │       ├── ShellEjectSound.mp3.import
+│   │       ├── ShotgunCuck.mp3
+│   │       ├── ShotgunCuck.mp3.import
+│   │       ├── ShotgunReload.mp3
+│   │       ├── ShotgunReload.mp3.import
+│   │       ├── SpearThrust.mp3
+│   │       ├── SpearThrust.mp3.import
+│   │       ├── ThrowSound.mp3
+│   │       ├── ThrowSound.mp3.import
+│   │       ├── WindupSound.mp3
+│   │       └── WindupSound.mp3.import
+│   ├── stairway
+│   │   ├── stairs_optimized.glb
+│   │   └── stairs_optimized.glb.import
+│   ├── table
+│   │   ├── psx_wooden_table_0.png
+│   │   ├── psx_wooden_table_0.png.import
+│   │   ├── psx_wooden_table.glb
+│   │   └── psx_wooden_table.glb.import
+│   ├── trees
+│   │   ├── optimized trees
+│   │   │   ├── bark1.mtl
+│   │   │   ├── bark1.obj
+│   │   │   ├── bark1.obj.import
+│   │   │   ├── bark2.mtl
+│   │   │   ├── bark2.obj
+│   │   │   ├── bark2.obj.import
+│   │   │   ├── leave1.mtl
+│   │   │   ├── leave1.obj
+│   │   │   ├── leave1.obj.import
+│   │   │   ├── leave2.mtl
+│   │   │   ├── leave2.obj
+│   │   │   ├── leave2.obj.import
+│   │   │   ├── tree1.mtl
+│   │   │   └── tree2.mtl
+│   │   ├── tree1.glb
+│   │   ├── tree1.glb.import
+│   │   ├── tree1_Image_1.jpg
+│   │   ├── tree1_Image_1.jpg.import
+│   │   ├── tree1_Image_2.jpg
+│   │   ├── tree1_Image_2.jpg.import
+│   │   ├── tree1_Image_3.png
+│   │   ├── tree1_Image_3.png.import
+│   │   ├── tree2.glb
+│   │   ├── tree2.glb.import
+│   │   ├── tree2_Image_0.png
+│   │   ├── tree2_Image_0.png.import
+│   │   ├── tree2_Image_1.jpg
+│   │   ├── tree2_Image_1.jpg.import
+│   │   ├── tree2_Image_2.jpg
+│   │   └── tree2_Image_2.jpg.import
+│   ├── tv
+│   │   ├── psx_old_tv_0.png
+│   │   ├── psx_old_tv_0.png.import
+│   │   ├── psx_old_tv.glb
+│   │   └── psx_old_tv.glb.import
+│   ├── ui
+│   │   ├── Crosshair.png
+│   │   ├── Crosshair.png.import
+│   │   └── DeathScreenOverlay.tscn
+│   └── world
+│       ├── 12956413-3009944278.jpg
+│       ├── 12956413-3009944278.jpg.import
+│       ├── altar_ruins_0.jpg
+│       ├── altar_ruins_0.jpg.import
+│       ├── altar_ruins_10.png
+│       ├── altar_ruins_10.png.import
+│       ├── altar_ruins_11.jpg
+│       ├── altar_ruins_11.jpg.import
+│       ├── altar_ruins_12.jpg
+│       ├── altar_ruins_12.jpg.import
+│       ├── altar_ruins_13.png
+│       ├── altar_ruins_13.png.import
+│       ├── altar_ruins_14.jpg
+│       ├── altar_ruins_14.jpg.import
+│       ├── altar_ruins_15.png
+│       ├── altar_ruins_15.png.import
+│       ├── altar_ruins_16.png
+│       ├── altar_ruins_16.png.import
+│       ├── altar_ruins_17.jpg
+│       ├── altar_ruins_17.jpg.import
+│       ├── altar_ruins_18.jpg
+│       ├── altar_ruins_18.jpg.import
+│       ├── altar_ruins_19.jpg
+│       ├── altar_ruins_19.jpg.import
+│       ├── altar_ruins_1.png
+│       ├── altar_ruins_1.png.import
+│       ├── altar_ruins_2.jpg
+│       ├── altar_ruins_2.jpg.import
+│       ├── altar_ruins_3.jpg
+│       ├── altar_ruins_3.jpg.import
+│       ├── altar_ruins_4.png
+│       ├── altar_ruins_4.png.import
+│       ├── altar_ruins_5.jpg
+│       ├── altar_ruins_5.jpg.import
+│       ├── altar_ruins_6.jpg
+│       ├── altar_ruins_6.jpg.import
+│       ├── altar_ruins_7.png
+│       ├── altar_ruins_7.png.import
+│       ├── altar_ruins_8.jpg
+│       ├── altar_ruins_8.jpg.import
+│       ├── altar_ruins_9.jpg
+│       ├── altar_ruins_9.jpg.import
+│       ├── altar_ruins.glb
+│       └── altar_ruins.glb.import
+├── Bari.tscn
+├── candle_03.tscn
+├── default_bus_layout.tres
+├── docs
+│   └── branding
+│       ├── butterfly-negative.png
+│       ├── butterfly-negative.png.import
+│       ├── butterfly.png
+│       ├── butterfly.png.import
+│       ├── headings
+│       │   ├── developer-note-dark.png
+│       │   ├── developer-note-dark.png.import
+│       │   ├── developer-note-light.png
+│       │   ├── developer-note-light.png.import
+│       │   ├── development-dark.png
+│       │   ├── development-dark.png.import
+│       │   ├── development-light.png
+│       │   ├── development-light.png.import
+│       │   ├── inspirations-dark.png
+│       │   ├── inspirations-dark.png.import
+│       │   ├── inspirations-light.png
+│       │   ├── inspirations-light.png.import
+│       │   ├── the-butterfly-dark.png
+│       │   ├── the-butterfly-dark.png.import
+│       │   ├── the-butterfly-light.png
+│       │   ├── the-butterfly-light.png.import
+│       │   ├── the-final-door-dark.png
+│       │   ├── the-final-door-dark.png.import
+│       │   ├── the-final-door-light.png
+│       │   ├── the-final-door-light.png.import
+│       │   ├── the-god-dark.png
+│       │   ├── the-god-dark.png.import
+│       │   ├── the-god-light.png
+│       │   ├── the-god-light.png.import
+│       │   ├── the-journey-dark.png
+│       │   ├── the-journey-dark.png.import
+│       │   ├── the-journey-light.png
+│       │   ├── the-journey-light.png.import
+│       │   ├── themes-dark.png
+│       │   ├── themes-dark.png.import
+│       │   ├── themes-light.png
+│       │   ├── themes-light.png.import
+│       │   ├── the-story-dark.png
+│       │   ├── the-story-dark.png.import
+│       │   ├── the-story-light.png
+│       │   └── the-story-light.png.import
+│       ├── Logo1-negative.png
+│       ├── Logo1-negative.png.import
+│       ├── Logo1.png
+│       ├── Logo1.png.import
+│       ├── Logo Banner.jpg
+│       ├── Logo Banner.jpg.import
+│       ├── Logo Banner-negative.jpg
+│       ├── Logo Banner-negative.jpg.import
+│       ├── Text.png
+│       └── Text.png.import
+├── door
+│   ├── DoorAnimatable.tscn
+│   ├── door_controller.gd
+│   ├── door_controller.gd.uid
+│   └── DoorController.tscn
+├── enemies
+│   ├── base_enemy.gd
+│   ├── base_enemy.gd.uid
+│   ├── echo.gd
+│   ├── echo.gd.uid
+│   ├── Echo.tscn
+│   ├── enemy_projectile.gd
+│   ├── enemy_projectile.gd.uid
+│   ├── EnemyProjectile.tscn
+│   ├── ranged_enemy.gd
+│   ├── ranged_enemy.gd.uid
+│   ├── RangedEnemy.tscn
+│   ├── remnant_believer.gd
+│   ├── remnant_believer.gd.uid
+│   ├── RemnantBeliever.tscn
+│   ├── the_bound.gd
+│   ├── the_bound.gd.uid
+│   └── TheBound.tscn
+├── Enemies
+│   ├── the_vicar.tscn
+│   ├── Vicar.gd
+│   ├── Vicar.gd.uid
+│   ├── VicarProjectile.gd
+│   ├── VicarProjectile.gd.uid
+│   └── vicar_projectile.tscn
+├── environment.tres
+├── export_presets.cfg
+├── EYE_CORRIDOR_BUILD_STEPS.md
+├── folder_structure.txt
+├── goodday.tres
+├── grass
+│   ├── 8b33c068332df34a0725f3d89d033dc5-2878760242.jpg
+│   ├── 8b33c068332df34a0725f3d89d033dc5-2878760242.jpg.import
+│   └── Grass.tres
+├── level4.tres
+├── menus
+│   ├── pause_menu.gd
+│   ├── pause_menu.gd.uid
+│   └── PauseMenu.tscn
+├── music
+│   ├── music_manager.gd
+│   ├── music_manager.gd.uid
+│   └── MusicManager.tscn
+├── nausea_controller.gd
+├── nausea_controller.gd.uid
+├── nausea.gdshader
+├── nausea.gdshader.uid
+├── pickupable
+│   ├── ammo_pickup.gd
+│   ├── ammo_pickup.gd.uid
+│   ├── AmmoPickup.tscn
+│   ├── health_pickup.gd
+│   ├── health_pickup.gd.uid
+│   ├── HealthPickup.tscn
+│   ├── medkit_pickup.gd
+│   ├── medkit_pickup.gd.uid
+│   └── Medkit.tscn
+├── project.godot
+├── README.md
+├── scenes
+│   ├── candle_trigger.gd
+│   ├── candle_trigger.gd.uid
+│   ├── CandleTunnel.tscn
+│   ├── enemies
+│   │   ├── demon.gd
+│   │   ├── demon.gd.uid
+│   │   ├── demon.tscn
+│   │   ├── fast_enemy.gd
+│   │   ├── fast_enemy.gd.uid
+│   │   └── fast_enemy.tscn
+│   ├── flicker.gd
+│   ├── flicker.gd.uid
+│   ├── intro
+│   │   ├── approach_trigger.gd
+│   │   ├── approach_trigger.gd.uid
+│   │   ├── end_trigger.gd
+│   │   ├── end_trigger.gd.uid
+│   │   ├── Forest.tscn
+│   │   ├── intro_audio.gd
+│   │   ├── intro_audio.gd.uid
+│   │   ├── intro.gd
+│   │   ├── intro.gd.uid
+│   │   ├── Level1.tscn
+│   │   ├── sigil_pulse.gdshader
+│   │   └── sigil_pulse.gdshader.uid
+│   ├── level_4.gd
+│   ├── level_4.gd.uid
+│   ├── Level4.tscn
+│   ├── levels
+│   │   └── boss.tscn
+│   ├── levels.tscn
+│   ├── player
+│   │   ├── crt.gdshader
+│   │   ├── crt.gdshader.uid
+│   │   ├── DoorFrame.tscn
+│   │   ├── mara_zone.gd
+│   │   ├── mara_zone.gd.uid
+│   │   ├── melee_system.gd
+│   │   ├── melee_system.gd.uid
+│   │   ├── player.gd
+│   │   ├── player.gd.uid
+│   │   ├── player_hand.gd
+│   │   ├── player_hand.gd.uid
+│   │   ├── player.tscn
+│   │   ├── psx.gdshader
+│   │   ├── psx.gdshader.uid
+│   │   ├── test_level.gdshader
+│   │   ├── test_level.gdshader.uid
+│   │   ├── test_level.tscn
+│   │   ├── tree_spawner.gd
+│   │   ├── tree_spawner.gd.uid
+│   │   ├── TreeSpawner.tscn
+│   │   ├── weapon_holder.gd
+│   │   └── weapon_holder.gd.uid
+│   ├── tree foliage.tscn
+│   └── ui
+│       ├── crosshair.gd
+│       ├── crosshair.gd.uid
+│       ├── desaturation_overlay.gd
+│       ├── desaturation_overlay.gd.uid
+│       ├── hud.gd
+│       ├── hud.gd.uid
+│       ├── hud.tscn
+│       ├── stats_screen.gd
+│       ├── stats_screen.gd.uid
+│       └── StatsScreen.tscn
+├── scripts
+│   ├── end_zone.gd
+│   ├── end_zone.gd.uid
+│   ├── eye_controller.gd
+│   ├── eye_controller.gd.uid
+│   ├── game_manager.gd
+│   ├── game_manager.gd.uid
+│   ├── gore_decal.gd
+│   ├── gore_decal.gd.uid
+│   ├── gore_manager.gd
+│   ├── gore_manager.gd.uid
+│   ├── level_manager.gd
+│   ├── level_manager.gd.uid
+│   ├── rage_fill.png
+│   ├── rage_fill.png.import
+│   ├── rage_frame.png
+│   └── rage_frame.png.import
+├── shaders
+│   ├── death_screen.gdshader
+│   ├── death_screen.gdshader.uid
+│   ├── death_screen_overlay.gd
+│   ├── death_screen_overlay.gd.uid
+│   ├── eye_wall.gdshader
+│   ├── eye_wall.gdshader.uid
+│   ├── uv_debug.gdshader
+│   └── uv_debug.gdshader.uid
+├── ui
+│   ├── rage_fill.png
+│   ├── rage_fill.png.import
+│   ├── rage_frame.png
+│   └── rage_frame.png.import
+└── weapons
+    ├── ashen_repeater.gd
+    ├── ashen_repeater.gd.uid
+    ├── AshenRepeater.tscn
+    ├── base_weapon.gd
+    ├── base_weapon.gd.uid
+    ├── BulletTrace.tscn
+    ├── hollow_round.gd
+    ├── hollow_round.gd.uid
+    ├── hollow_round_projectile.gd
+    ├── hollow_round_projectile.gd.uid
+    ├── HollowRoundProjectile.tscn
+    ├── HollowRound.tscn
+    ├── remnant.gd
+    ├── remnant.gd.uid
+    ├── RemnantProjectile.tscn
+    ├── Remnant.tscn
+    ├── shell_casing.gd
+    ├── shell_casing.gd.uid
+    ├── ShellCasing.tscn
+    ├── the_grief.gd
+    ├── the_grief.gd.uid
+    ├── TheGrief.tscn
+    ├── weapon_animator.gd
+    ├── weapon_animator.gd.uid
+    ├── weapon_manager.gd
+    └── weapon_manager.gd.uid
+
+57 directories, 569 files
